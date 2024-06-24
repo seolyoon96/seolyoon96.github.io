@@ -1,0 +1,43 @@
+#wrap{
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+
+  height: 100vh;
+  background: #1b1c1e;
+}
+// wrap
+
+#header{
+  position: fixed;
+  width: 100%;
+
+  #me{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-325%, 350%) rotate(90deg);
+
+    em{
+      font-weight: 300;
+      color: #fff;
+      white-space: nowrap;
+    }
+  }
+
+  #gnb{
+    margin: 30px 180px;
+    
+    .about{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      li{
+        padding: auto;
+        color: #d8d8d8;
+      }
+    }
+  }
+}
+// header
