@@ -123,7 +123,13 @@
       <h1>
         밝고 긍정적인, 책임감이 강한 사람
         <br />
-        <span>UI UX Designer</span> 서윤설입니다.
+        <div class="cursor"></div>
+        <div class="shapes">
+          <div class="shape shape-1"></div>
+          <div class="shape shape-2"></div>
+          <div class="shape shape-3"></div>
+        </div>
+        <span class="content">UI UX Designer</span> 서윤설입니다.
       </h1>
       <ul>
         <li id="inform">
@@ -256,59 +262,27 @@
     </section>
     
 
-    <footer class="section part-7">
-      <h1 class="section-header">Contact</h1>
-      <div class="contact-wrapper">
-        <!-- Left contact page -->
-        <form id="contact-form" class="form-horizontal" role="form" method="post" target="frAttachFiles"
-          action="https://script.google.com/macros/s/AKfycbw1oSL4ACPw5IJpeny6KMWHVwKMw3a4satcIfoinudQSjjQYkn6Qu8oOVOyAycTGq9A/exec">
-          <div class="form-group">
-            <div class="col-sm-12">
-              <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required />
+      <div class="section pfs sec6" data-tooltip="MORE INFO" data-anchor="moreinfo">
+        <div class="contact-wrapper">
+          <div class="contact-inner">
+            <div class="contact-info">
+              <div class="card">
+                <img src="./image/email.png" alt="email" class="card-icon" />
+                <p class="card-tit">tjf118@naver.com</p>
+              </div>
+      
+              <div class="card">
+                <img src="./image/github-mark-white.png" alt="git" class="card-icon" />
+                <a href="https://github.com/oddoddo" class="card-tit">https://seolyoon96.github.io/</a>
+              </div>
             </div>
           </div>
-          <div class="form-group">
-            <div class="col-sm-12">
-              <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required />
-            </div>
+          <div class="last-comment">
+            <p>본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 만들어진 사이트입니다.</p>
+            <span>ⓒ YOONSEOL PORTFOLIO</span>
           </div>
-          <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
-          <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
-            <div class="alt-send-button">
-              <i class="fa fa-paper-plane"></i>
-              <span class="send-text"> SEND </span>
-            </div>
-          </button>
-        </form>
-        <iframe name="frAttachFiles" style="display: none"></iframe>
-        <!-- Left contact page -->
-        <div class="direct-contact-container">
-          <ul class="contact-list">
-            <li class="list-item">
-              <i class="fa fa-map-marker fa-2x"><span class="contact-text place">City, Seoul</span></i>
-            </li>
-            <li class="list-item">
-              <i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:010-4572-6079"
-                    title="Give me a call">010.8337.0766</a></span></i>
-            </li>
-            <li class="list-item">
-              <i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#"
-                    title="Send me an email">tjf118@naver.com</a></span></i>
-            </li>
-          </ul>
-          <hr />
-          <ul class="social-media-list">
-            <li>
-              <a href="https://seolyoon96.github.io/" target="_blank" class="contact-icon">
-                <i class="fa fa-github" aria-hidden="true"></i>
-              </a>
-            </li>
-          </ul>
-          <hr />
-          <div class="copyright">&copy; YOONSEOL PORTFOLIO</div>
         </div>
       </div>
-    </footer>
   </main>
   <script>
     new fullpage("#fullpage", {
