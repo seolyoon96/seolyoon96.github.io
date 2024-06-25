@@ -390,18 +390,6 @@ legend {
   transform: translateX(0);
   animation: runningText 30s linear infinite;
 }
-#fullpage .part-1 .to-top {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  width: 100px;
-  height: 100px;
-  border-radius: 100px;
-  background: #282828;
-  color: #fff;
-  text-align: center;
-  line-height: 100px;
-}
 @keyframes runningText {
   0% {
     transform: translateX(100%);
