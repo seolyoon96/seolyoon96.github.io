@@ -63,8 +63,8 @@
 
       .part-1-box {
         position: absolute;
-        bottom: 20px;
-        left: 460px;
+        bottom: 180px;
+        left: 570px;
         width: 210px;
 
         img {
@@ -78,6 +78,19 @@
         bottom: -160px;
         left: 630px;
         width: 220px;
+        z-index: 1000;
+
+        img {
+          max-width: 100%;
+          display: block;
+        }
+      }
+
+       .part-3-box {
+        position: absolute;
+        bottom: -80px;
+        left: 450px;
+        width: 210px;
 
         img {
           max-width: 100%;
@@ -183,7 +196,7 @@
         background-repeat: no-repeat;
         background-size: 80%;
         animation: animate 4s linear infinite;
-        -webkit-background-clip: text;
+        // -webkit-background-clip: text;
         -webkit-text-fill-color: rgba(255, 255, 255, 0);
       }
     }
