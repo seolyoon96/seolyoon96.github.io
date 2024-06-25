@@ -20,148 +20,307 @@
   <!-- 소셜 미디어 -->
 
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <!--  swiper-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Round"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link rel="stylesheet"
-    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-  <!-- icon -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
-  <!-- font -->
-  <link rel="stylesheet" href="./assets/css/styles.css">
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./dist/css/comm.css" />
+  <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="dist/css/fullpage.min.css" />
   <!-- css -->
 
 
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <!-- swiper -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.8/lottie.min.js"></script>
-  <!-- lottie -->
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-  <!-- gsap -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <!-- jquery -->
-  <script src="./assets/js/fullpage.js"></script>
-  <script src="./dist/js/include.js"></script>
-  <script defer src="./assets/js/common.js"></script>
-  <script defer src="./assets/js/main.js"></script>
+  <script src="dist/js/fullpage.min.js"></script>
+  <script src="dist/js/comm.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://use.fontawesome.com/20ab91acc4.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <!-- js -->
-
 
 </head>
 
 <body>
-  <div id="wrap">
-    <header id="header">
-      <h1 id="me">
-        <em>
-          phone. 010-8337-0766 <br>
-          e-mail. tjf118@naver.com
-        </em>
-      </h1>
+  <header id="header">
+    <h1 id="me">
+      <em>
+        phone. 010-8337-0766 <br>
+        e-mail. tjf118@naver.com
+      </em>
+    </h1>
 
-      <nav id="gnb">
-        <ul class="about">
-          <li>V.06 2024 <br> Portfolio Works</li>
-          <li>Availability <br> Portfolio Works</li>
-          <li>N 37.47783° E 126.95179°<br> NambuBektway, Seoul</li>
-        </ul>
-      </nav>
-      <!-- nav -->
-    </header>
-    <!-- header -->
+    <nav id="gnb">
+      <ul class="about">
+        <li>V.06 2024 <br> Portfolio Works</li>
+        <li>Availability <br> Portfolio Works</li>
+        <li>N 37.47783° E 126.95179°<br> NambuBektway, Seoul</li>
+      </ul>
+    </nav>
+    <!-- nav -->
+  </header>
+  <!-- header -->
 
-
-    <main id="main">
-      <section class="sec01">
-        <div class="img">
-          <img src="./image/01.png" alt="">
+  <main id="fullpage">
+    <div class="section part-1">
+      <div class="my-image">
+        <div class="part-1-box">
+          <img src="./image/01.png" class="0-1box" alt="" />
         </div>
-        <!-- img -->
 
-        <div class="lottie01">
-          <svg
-            viewBox="0 0 500 500"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            width="100%"
-            id="blobSvg">
-            
-            <path fill="#73c2fb" d="M10 10 L20 20">
-              <animate
-                attributeName="d"
-                dur="6000ms"
-                repeatCount="indefinite"
-                values="M417,342Q356,434,243,446Q130,458,69,354Q8,250,74.5,155.5Q141,61,246.5,67Q352,73,415,161.5Q478,250,417,342Z;
+        <div class="part-2-box">
+          <img src="./image/01.png" class="0-1box" alt="" />
+          <span class="my-age">Age'28</span>
+        </div>
+      </div>
+      <!-- my-image -->
+
+      <div class="my-color-circle">
+        <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          width="100%" id="blobSvg">
+          <path fill="#73c2fb" d="M10 10 L20 20">
+            <animate attributeName="d" dur="6000ms" repeatCount="indefinite"
+              values="M417,342Q356,434,243,446Q130,458,69,354Q8,250,74.5,155.5Q141,61,246.5,67Q352,73,415,161.5Q478,250,417,342Z;
                 M417.70866,355.53532Q372.0746,461.07065,257.36107,448.60426Q142.64754,436.13787,76.63751,343.06893Q10.62747,250,82.77911,167.38459Q154.93074,84.76918,254.77338,76.78223Q354.61603,68.79529,408.97937,159.39764Q463.34273,250,417.70866,355.53532Z;
                 M370.80935,311.02685Q320.77806,372.05369,222.15853,420.71258Q123.53901,469.37147,77.55923,359.68573Q31.57945,250,74.26188,135.1768Q116.94432,20.3536,241.2219,34.30221Q365.49949,48.25081,393.17006,149.12541Q420.84064,250,370.80935,311.02685Z;
                 M406.5,347Q362,444,260.5,426Q159,408,86,329Q13,250,86,171.5Q159,93,263,70Q367,47,409,148.5Q451,250,406.5,347Z;
                 M423.28741,342.27854Q356.75393,434.55708,253.15551,429.14764Q149.55708,423.7382,93.34449,336.8691Q37.1319,250,86.52461,151.04035Q135.91731,52.08069,238.8681,71.57382Q341.81889,91.06695,415.81988,170.53347Q489.82088,250,423.28741,342.27854Z;
-                M417,342Q356,434,243,446Q130,458,69,354Q8,250,74.5,155.5Q141,61,246.5,67Q352,73,415,161.5Q478,250,417,342Z;">
-              </animate>
-            </path>
-          </svg>
+                M417,342Q356,434,243,446Q130,458,69,354Q8,250,74.5,155.5Q141,61,246.5,67Q352,73,415,161.5Q478,250,417,342Z;"></animate>
+          </path>
+        </svg>
+      </div>
+      <!-- my-color-circle -->
+
+      <div class="runningtext-box">
+        <div class="txt">
+          Welcome — Yoon seol — Portfolio v.06 2024 — Welcome — Yoon seol — Portfolio v.06 2024 — Welcome — Yoon seol —
+          Portfolio v.06 2024 — Welcome — Yoon seol — Portfolio v.06 2024 — &nbsp;
         </div>
-        <!-- lottie01 -->
+        <div class="txt">
+          Welcome — Yoon seol — Portfolio v.06 2024 — Welcome — Yoon seol — Portfolio v.06 2024 — Welcome — Yoon seol —
+          Portfolio v.06 2024 — Welcome — Yoon seol — Portfolio v.06 2024 — &nbsp;
+        </div>
+        <div class="txt">
+          Welcome — Yoon seol — Portfolio v.06 2024 — Welcome — Yoon seol — Portfolio v.06 2024 — Welcome — Yoon seol —
+          Portfolio v.06 2024 — Welcome — Yoon seol — Portfolio v.06 2024 — &nbsp;
+        </div>
+      </div>
+      <!-- runningtext-box -->
 
-          <div class="lottie02">
-            <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
-              id="blobSvg">
-          
-              <path fill="#65AFFF" d="M10 10 L20 20">
-                <animate attributeName="d" dur="6000ms" repeatCount="indefinite"
-                  values="M417,342Q356,434,243,446Q130,458,69,354Q8,250,74.5,155.5Q141,61,246.5,67Q352,73,415,161.5Q478,250,417,342Z;
-                          M417.70866,355.53532Q372.0746,461.07065,257.36107,448.60426Q142.64754,436.13787,76.63751,343.06893Q10.62747,250,82.77911,167.38459Q154.93074,84.76918,254.77338,76.78223Q354.61603,68.79529,408.97937,159.39764Q463.34273,250,417.70866,355.53532Z;
-                          M370.80935,311.02685Q320.77806,372.05369,222.15853,420.71258Q123.53901,469.37147,77.55923,359.68573Q31.57945,250,74.26188,135.1768Q116.94432,20.3536,241.2219,34.30221Q365.49949,48.25081,393.17006,149.12541Q420.84064,250,370.80935,311.02685Z;
-                          M406.5,347Q362,444,260.5,426Q159,408,86,329Q13,250,86,171.5Q159,93,263,70Q367,47,409,148.5Q451,250,406.5,347Z;
-                          M423.28741,342.27854Q356.75393,434.55708,253.15551,429.14764Q149.55708,423.7382,93.34449,336.8691Q37.1319,250,86.52461,151.04035Q135.91731,52.08069,238.8681,71.57382Q341.81889,91.06695,415.81988,170.53347Q489.82088,250,423.28741,342.27854Z;
-                          M417,342Q356,434,243,446Q130,458,69,354Q8,250,74.5,155.5Q141,61,246.5,67Q352,73,415,161.5Q478,250,417,342Z;">
-                </animate>
-              </path>
-            </svg>
-          </div>
-          <!-- lottie02 -->
+      <div class="to-top">top</div>
+    </div>
+    <!-- part-1 -->
 
-        <div class="slide-txt">
-          <div class="txt">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ratione magnam nostrum aspernatur eos incidunt natus, commodi dolorum! Suscipit, laboriosam? 
+
+    <section class="section part-2">
+      <h1>
+        밝고 긍정적인, 책임감이 강한 사람
+        <br />
+        <span>UI UX Designer</span> 서윤설입니다.
+      </h1>
+      <ul>
+        <li id="inform">
+          <h2>Inform</h2>
+          <div class="infrom_g contents">
+            <p><span>name : </span>서윤설</p>
+            <p><span>number : </span>010.8337.0766</p>
+            <p><span>e-mail : </span>tjf118@naver.com</p>
           </div>
-          <div class="txt">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ratione magnam nostrum aspernatur eos incidunt
-            natus, commodi dolorum! Suscipit, laboriosam?
+        </li>
+        <li id="skill">
+          <h2>Skill</h2>
+          <div class="skills">
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Javascript</p>
+            <p>Jquery</p>
+            <p>Illustrator</p>
+            <p>Photoshop</p>
+            <p>Figma</p>
           </div>
-          <div class="txt">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ratione magnam nostrum aspernatur eos incidunt
-            natus, commodi dolorum! Suscipit, laboriosam?
+        </li>
+        <li id="education">
+          <h2>Education</h2>
+          <div class="education_g contents">
+            <p>
+              <span>2015.03 - 2019.02</span><br />
+              계원예술대학교 | 산업디자인과 졸업
+            </p>
+            <br>
+            <p>
+              <span>2019.03 - 2021.02</span><br />
+              홍익대학교 대학원 | 산업디자인과 수료 (석사과정)
+            </p>
+            <br>
+            <p>
+              <span>2024.05 - 2024.06</span><br />
+              뉴딜 UX/UI 웹&모바일 디자인 실무
+            </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+
+    <section class="section part-3">
+      <div class="slide-item show">
+        <div class="slide-item-inner">
+          <div class="slide-cover">
+            <img src="./image/nationalgeogpaphic.png" alt="NATIONALGEOGRAPHIC" />
+          </div>
+          <div class="slide-info">
+            <b class="slide-num">01</b>
+            <div class="slide-txt">
+              <h3 class="slide-title">NATIONAL GEOGRAPHIC</h3>
+              <p class="slide-page-txt">
+                내셔널지오그래픽의 웹 페이지를 Gsap library를 사용하여
+                여러 카태고리 중 national를 중점적으로 디자인 해 만들었습니다.
+              </p>
+              <p class="slide-page-info_1">메인, 원페이지</p>
+              <p class="slide-page-info_2">100% 개인작업</p>
+            </div>
+            
+            <a class="slide-view-btn" href="https://seolyoon96.github.io/nationalGeographic/" target="_blank">
+              <span>Web</span>
+            </a>
           </div>
         </div>
+      </div>
+    </section>
 
-        <div class="slide-txt02">
-          <div class="txt02">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ratione magnam nostrum aspernatur eos incidunt
-            natus, commodi dolorum! Suscipit, laboriosam?
+
+    <section class="section part-4">
+      <div class="slide-item show">
+        <div class="slide-item-inner">
+          <div class="slide-cover">
+            <img src="./image/jeep.png" alt="jeep" />
           </div>
-          <div class="txt02">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ratione magnam nostrum aspernatur eos incidunt
-            natus, commodi dolorum! Suscipit, laboriosam?
-          </div>
-          <div class="txt02">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ratione magnam nostrum aspernatur eos incidunt
-            natus, commodi dolorum! Suscipit, laboriosam?
+          <div class="slide-info">
+            <b class="slide-num">02</b>
+            <div class="slide-txt">
+              <h3 class="slide-title">JEEP</h3>
+              <p class="slide-page-txt">
+                지프 웹페이지를 리뉴얼하여 기존 페이지의 이벤트 프로모션에 집중되어 있는 디자인의 문제를 제품에 좀 더 집중시켜 직관적으로 볼 수 있게 만들었습니다.
+              </p>
+              <p class="slide-page-info_1">메인, 서브페이지</p>
+              <p class="slide-page-info_2">100% 개인작업</p>
+            </div>
+            <div class="slide-btn">
+              <a class="slide-view-btn"
+                href="https://www.figma.com/proto/QZGoe1bvZiBoFaLbcKmab6/24.-05.-13_website-survey_jeep?node-id=1-59&t=NbswGOKPXnsA2Zgd-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A59">
+                <span>Site problem</span>
+              </a>
+              <a class="slide-view-btn" href="https://www.figma.com/design/NudYlezJWXvK2BWMamKUPf/jeep-%EC%8B%9C%EC%95%88-2%EC%B0%A8?node-id=0-1&t=oRGGyb6hTq1igt4f-1" target="_blank">
+                <span>Figma</span>
+              </a>
+            </div>
           </div>
         </div>
-        <!-- slide-txt -->
-      </section>
-      <!-- sec01 -->
-
-    </main>
-    <!-- main -->
+      </div>
+    </section>
 
 
-    <footer id="footer"></footer>
-    <!-- footer -->
-  </div>
+    <section class="section part-5">
+      <div class="slide-item show">
+        <div class="slide-item-inner">
+          <div class="slide-cover">
+            <img src="./image/uaena.jpg" alt="uaena" />
+          </div>
+          <div class="slide-info">
+            <b class="slide-num">03</b>
+            <div class="slide-txt">
+              <h3 class="slide-title">UAENA</h3>
+              <p class="slide-page-txt">
+                유앤 웹페이지를 크게 메인, 프로필, 앨범이미지, 포토, 굿즈 다섯가지 구역으로 나누어 디자인 해 만들었습니다.
+              </p>
+              <p class="slide-page-info_1">메인, 원페이지</p>
+              <p class="slide-page-info_2">100% 개인작업</p>
+            </div>
+            <div class="slide-btn">
+              <a class="slide-view-btn" href="https://seolyoon96.github.io/uaena/
+                  " target="_blank">
+                <span>Web</span>
+              </a>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <footer class="section part-7">
+      <h1 class="section-header">Contact</h1>
+      <div class="contact-wrapper">
+        <!-- Left contact page -->
+        <form id="contact-form" class="form-horizontal" role="form" method="post" target="frAttachFiles"
+          action="https://script.google.com/macros/s/AKfycbw1oSL4ACPw5IJpeny6KMWHVwKMw3a4satcIfoinudQSjjQYkn6Qu8oOVOyAycTGq9A/exec">
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required />
+            </div>
+          </div>
+          <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+          <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+            <div class="alt-send-button">
+              <i class="fa fa-paper-plane"></i>
+              <span class="send-text"> SEND </span>
+            </div>
+          </button>
+        </form>
+        <iframe name="frAttachFiles" style="display: none"></iframe>
+        <!-- Left contact page -->
+        <div class="direct-contact-container">
+          <ul class="contact-list">
+            <li class="list-item">
+              <i class="fa fa-map-marker fa-2x"><span class="contact-text place">City, Seoul</span></i>
+            </li>
+            <li class="list-item">
+              <i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:010-4572-6079"
+                    title="Give me a call">010.8337.0766</a></span></i>
+            </li>
+            <li class="list-item">
+              <i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#"
+                    title="Send me an email">tjf118@naver.com</a></span></i>
+            </li>
+          </ul>
+          <hr />
+          <ul class="social-media-list">
+            <li>
+              <a href="https://seolyoon96.github.io/" target="_blank" class="contact-icon">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+          <hr />
+          <div class="copyright">&copy; YOONSEOL PORTFOLIO</div>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <script>
+    new fullpage("#fullpage", {
+      navigation: true,
+      navigationTooltips: [
+        "Intro",
+        "Introduce",
+        "Publishing",
+        "Publishing",
+        "Publishing",
+        "Publishing",
+        "Footer",
+      ],
+      scrollingSpeed: 1500,
+    });
+  </script>
 </body>
 
 </html>
